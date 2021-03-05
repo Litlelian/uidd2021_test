@@ -1,7 +1,23 @@
 body {
+  position: absolute;
   font-family: "Segoe UI-Regular";
   font-size: 24px;
   color: #707070
 }
 
+.navigation {
+  position: fixed;
+}
 
+.navigation li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+}
+
+#logo {
+  margin-top: 80px;
+}
