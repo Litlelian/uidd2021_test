@@ -1,23 +1,37 @@
 body {
   position: absolute;
-  font-family: "Segoe UI-Regular";
-  font-size: 24px;
+  font: normal normal normal 24px Segoe UI;
   color: #707070;
-  margin-left: 50px;
-  margin-right: 50px;
+}
+
+#logo,#adopt,#cooperation,#about,#contact {
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .navigation {
   position: fixed;
+  display: flex;
+  align-items: center;
   margin: 0px;
-  padding: 24px 500px 24px 24px;
+  width: 1920px;
+  height: 150px;
   background: white;
+  box-shadow: 0px 3px 6px #00000029;
+  padding-left: 140px;
+  left: 0px;
+  top: 0px;
 }
 
 .navigation li {
   display: inline-block;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 32px 0px 32px;
   vertical-align: middle;
+}
+
+.navigation img {
+  width: 170px;
+  height: 42px;
 }
 
 a {
@@ -26,29 +40,34 @@ a {
 }
 
 #logo {
-  margin-top: 80px;
+  margin-top: 198px;
 }
 
 .join {
   position: fixed;
-  right: 0px;
+  top: 51px;
+  right: 140px;
 }
 
 .join button{
-  border: 3px green solid;
+  width: 180px;
+  height: 48px;
+  border: 2px solid #689F38;
   font-size: 24px;
-  color: green;
+  color: #689F38;
+  border-radius: 4px;
   background-color: white;
 }
 
 .join img {
-  width: 30px;
+  width: 34px;
+  height: 31px;
   vertical-align: middle;
 }
 
 #contact {
   text-align: center;
-  background: grey;
+  background: #404040 0% 0% no-repeat padding-box;
 }
 
 #contact .col,h3 {
@@ -61,11 +80,63 @@ a {
   vertical-align: middle;
 }
 
+#contact h3 {
+  font: normal normal 600 34px/46px Segoe UI;
+  margin-right: 121px;
+}
+
+#contact .pt {
+  margin-top: 37px;
+  margin-bottom: 18px;
+}
+
+#contact .pb {
+  margin-right: 106px;
+  margin-bottom: 48px;
+}
+
+#adopt {
+  margin-bottom: 48px;
+}
+
+#adopt .col{
+  vertical-align: middle;
+  width: 313px;
+  margin: 0px;
+}
+
+#adopt .p1 {
+  width: 950px;
+  height: 416px;
+}
+
+#adopt .p2 {
+  margin-top: 43px;
+  margin-left: 690px;
+}
+
+#adopt .p3 {
+  width: 950px;
+  height: 464px;
+}
+
+#adopt p {
+  margin: 0px;
+}
+
+.bold {
+  font: normal normal normal 34px/46px Segoe UI;
+  color: #404040;
+}
+
+.diffcolor {
+  color: #404040;
+}
+
 .picture img {
-  width: 250px;
-  height: auto;
-  margin: 5px;
-  float: right;
+  width: 313px;
+  height: 222;
+  margin-bottom: 16px;
 }
 
 .col {
