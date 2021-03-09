@@ -1,6 +1,6 @@
 body {
   position: absolute;
-  font: normal normal normal 24px Segoe UI;
+  font: normal normal normal 24px/48px Segoe UI;
   color: #707070;
 }
 
@@ -145,4 +145,58 @@ a {
   justify-content: space-between;
 }
 
+.duck {
+  background-image: url("./fig/plant.png");
+  width: 1648px;
+  margin: 60px 140px 60px 140px;
+}
 
+.duck img {
+  margin-left: 1613px;
+}
+
+#about {
+  background: #689F38 0% 0% no-repeat padding-box;
+  height: 552px;
+  margin-bottom: 46px;
+  padding-top: 49px;
+}
+
+#about p {
+  color: white;
+  margin: 0px;
+}
+
+#about img {
+  width: 500px;
+  height: 470px;
+  margin-right: 112px;
+}
+
+#about .col {
+  width: 978px;
+  height: 443px;
+  vertical-align: top;
+}
+
+#cooperation {
+  width: 1640px;
+}
+
+#cooperation table {
+  width: 1640px;
+  height: 376px;
+}
+
+#cooperation thead {
+  font: normal normal normal 34px/46px Segoe UI;
+}
+
+#cooperation tbody {
+  font: normal normal normal 24px/48px Segoe UI;
+  border: 2px solid #689F38;
+}
+
+#cooperation tbody tr {
+  box-shadow: 0px 3px 6px #00000029;
+}
