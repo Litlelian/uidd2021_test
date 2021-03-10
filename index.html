@@ -1,20 +1,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>test</title>
+    <title>Agri- Culture 農田認養</title>
     <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="./fig/favicon.ico">
   </head>
 
   <body>
     <!--to navigate to each part of this website-->
     <ul class="navigation" style="list-style-type:none">
-      <li><a href="#logo"><img src="./fig/logo.png"></img></a></li>
-      <li><a href="#adopt">農田認養</a></li>
+      <li><a href="#top"><img src="./fig/logo.png"></img></a></li>
+      <li><a href="#top">農田認養</a></li>
       <li><a href="#cooperation">合作農家</a></li>
-      <li><a href="#about">關於我們</a></li>
+      <li><a href="#duck">關於我們</a></li>
       <li><a href="#contact">聯絡我們</a></li>
-      <li><a href="#question">常見問題集</a></li>
+      <li><a href="./index2.html">常見問題集</a></li>
     </ul>
+
+    <a href="#top"><div class="nav2"><img src="./fig/up.png"></img></div></a>
+    
+    <!--for navigate to the top-->
+    <span id="top"></span>
 
     <!--pumpkin-->
     <div class="join">
@@ -45,21 +51,21 @@
           最後，台灣的農業因人口老化而廢耕率日漸增加，也習慣為了增加產量而大量使用農業、化學、合成肥料，破壞土地的平衡，讓植物更難以生長。認養農田能幫助台灣廢耕多年的土地重生，讓過度施肥與農藥的土地可以有恢復地力的機會。
         </p>
       </div>
-      <div class="col picture">
-        <img src="./fig/p1.jpg"></img> 
+      <div class="col picture col1">
+        <img src="./fig/p1.jpg" class="img1"></img> 
         <img src="./fig/p2.jpg"></img> 
       </div>
       <div class="col picture">
-        <img src="./fig/p3.jpg"></img>
+        <img src="./fig/p3.jpg" class="img1"></img>
         <img src="./fig/p4.jpg"></img> 
       </div>
       <p class="bold p2">這要怎麼做到呢？</p>
-      <div class="col picture">
-        <img src="./fig/p5.jpg"></img>
+      <div class="col picture col1">
+        <img src="./fig/p5.jpg" class="img1"></img>
         <img src="./fig/p6.jpg"></img>
       </div>
       <div class="col picture">
-        <img src="./fig/p7.jpg"></img>
+        <img src="./fig/p7.jpg" class="img1"></img>
         <img src="./fig/p8.jpg"></img>
       </div>
       <div class="col p3">
@@ -144,7 +150,7 @@
     </div>
 
     <!--duck-->
-    <div class="duck">
+    <div class="duck" id="duck">
       <a><img src="./fig/duck.svg"></img></a>
     </div>
 
@@ -176,12 +182,8 @@
         <div class="col">
           <p class="pt">地址：臺南市後壁區菁寮里73號</p>
           <p class="pb">Terms & Conditions | Privacy</p>
+        </div>
       </div>
-    </div>
-
-    <!--question-->
-    <div id="question">
-      <!--other page??-->
     </div>
   </body>
 </html>
